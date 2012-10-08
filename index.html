@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Sample Publication Search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Search input -->
+<div class="floatLeft">
+<div>
+    <span class="searchH2">Search by keyword</span>
+</div>
+<input id="inputKeyword">
+</div>
+
+<p>Search results goes here:<p>
+<div id="searchResultsListing" class="floatRight"></div>
+
+<!--jquery template to be inserted into div #searchResultsListing above -->
+<script id="templateSearchResult" type="text/x-jquery-tmpl">
+    <div class="template">
+        <div>
+            <a class="searchListingTitle" href="${url}">${title}</a>
+        </div>
+        <div>
+            ${desc}
+        </div>
+    </div>
+</script>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-tmpl.js"></script>
+<script src="js/search.js"></script>
+<script>
+    $(document).ready(function() {
+        Search.init();
+    });
+</script>
+
+</body>
+</html>

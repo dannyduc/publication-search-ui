@@ -1,0 +1,45 @@
+{
+    "experimentalPlatforms":[
+        "ChIP-on-Chip", "Chromatin Immunoprecipitation",
+        "Gene Expression Profiling",
+        "Proteomics Profiling",
+        "Genotyping",
+        "Metabolomics",
+        "Methylation Profiling",
+        "miRNA",
+        "Next-Gen Sequencing",
+        "RNAi"
+    ],
+    "researchGoals":[
+        "Drug Mechanism of Action",
+        "Disease Models",
+        "Biomarkers - Diagnostic Markers",
+        "Biomarkers - Prognostic Markers",
+        "Biomarkers - Markers of Drug Response",
+        "Biomarkers - Markers of Toxicity",
+        "Disease Subclassification",
+        "Basic Research"
+    ],
+    "researchAreas":[
+        "Aging",
+        "Bioinformatics/General Methods",
+        "Bone Development",
+        "Cardiovascular Disease",
+        "Developmental Biology",
+        "Eye Disease",
+        "Genetics",
+        "Hematology",
+        "Inflammation/Immunology",
+        "Infectious Disease",
+        "Liver Disease",
+        "Metabolic Disease",
+        "Neuroscience",
+        "Nutritional Sciences",
+        "Oncology",
+        "Renal Disorders",
+        "Reproductive Biology",
+        "Stem Cell Biology",
+        "Toxicity/Safety Assessment",
+        "Wound Healing/Injury"
+    ]
+}
